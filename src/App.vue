@@ -48,6 +48,7 @@ body {
     transform: translate3d(-50%,-50%,0);
     width: 800px;
     height: 800px;
+    // GO UCF KNIGHTS !!! 2018 NATIONAL CHAMPS BABY
     background-image: url('http://business.ucf.edu/wp-content/uploads/sites/4/2017/08/UCF_Knightro_logo.png');
     background-size: 100%;
     background-repeat: no-repeat;

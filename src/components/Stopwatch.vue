@@ -1,11 +1,11 @@
 <template>
-  <div class="stopwatch-wrapper" v-on:keypress.space="startTimer()">
+  <div class="stopwatch-wrapper">
     <h1 class="seconds">{{ seconds }}s</h1>
 
     <div class="stopwatch-controls">
 
-      <button class="btn btn--start" @click="startTimer()" v-on:keypress.space="startTimer()" :class="{'running': running}">Start</button>
-      <button class="btn btn--stop" @click="resetTimer()" v-on:keypress.space.prevent="startTimer()">Reset</button>
+      <button class="btn btn--start" @click="startTimer()" :class="{'running': running}">Start</button>
+      <button class="btn btn--stop" @click="resetTimer()">Reset</button>
       
     </div>
     
@@ -35,14 +35,12 @@ export default {
     },
     startTimer() {
       let vm = this;
-      console.log('starting');
       clearInterval(this.timer);
       this.start = Date.now();
       this.timer = setInterval(vm.tick, 50);
       this.running = true;
     },
     resetTimer() {
-      console.log('resetting');
       this.elapsed = 0;
       clearInterval(this.timer);
       this.running = false;
@@ -85,17 +83,6 @@ $border-color: darken($primary-color, 10%);
 h1, h2 {
   font-weight: normal;
   margin-top: 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: $primary-color;
 }
 
 .seconds {
