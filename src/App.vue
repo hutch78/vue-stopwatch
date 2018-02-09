@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <Stopwatch/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Stopwatch from './components/Stopwatch'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Stopwatch
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 body {
   background-color: #333;
   color: white;
@@ -38,6 +38,27 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+
+  &:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    width: 800px;
+    height: 800px;
+    background-image: url('http://business.ucf.edu/wp-content/uploads/sites/4/2017/08/UCF_Knightro_logo.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: .0125;
+    z-index: 1;
+  }
+
+    .stopwatch-wrapper {
+      position: relative;
+      z-index: 10;
+    }
 
 }
 </style>

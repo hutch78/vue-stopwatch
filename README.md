@@ -1,7 +1,7 @@
+![VueJS Stopwatch](https://imgur.com/ukOeyg5.jpg)
 # vue-stopwatch
 
 > A Vue.js project
-
 ## Build Setup
 
 ``` bash
