@@ -46,10 +46,6 @@ export default {
       this.running = false;
     }
   },
-  watch: {
-    elapsed(value){
-    }
-  },
   created() {
     let vm = this;
     document.body.onkeyup = function(e){
