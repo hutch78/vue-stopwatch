@@ -69,7 +69,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
-$primary-color: #b5985a;
+$primary-color: #62ae85;
 $border-color: darken($primary-color, 10%);
 
 * {

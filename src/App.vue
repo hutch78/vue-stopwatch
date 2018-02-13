@@ -17,7 +17,7 @@ export default {
 
 <style lang="scss">
 body {
-  background-color: #333;
+  background-color: #1c1c1c;
   color: white;
 }
 * {
@@ -40,20 +40,20 @@ body {
   bottom: 0;
 
   &:before {
-    position: absolute;
-    content: '';
-    display: block;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%,-50%,0);
-    width: 800px;
-    height: 800px;
-    // GO UCF KNIGHTS !!! 2018 NATIONAL CHAMPS BABY
-    background-image: url('http://business.ucf.edu/wp-content/uploads/sites/4/2017/08/UCF_Knightro_logo.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    opacity: .0125;
-    z-index: 1;
+    // position: absolute;
+    // content: '';
+    // display: block;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate3d(-50%,-50%,0);
+    // width: 800px;
+    // height: 800px;
+    // // GO UCF KNIGHTS !!! 2018 NATIONAL CHAMPS BABY
+    // background-image: url('http://business.ucf.edu/wp-content/uploads/sites/4/2017/08/UCF_Knightro_logo.png');
+    // background-size: 100%;
+    // background-repeat: no-repeat;
+    // opacity: .0125;
+    // z-index: 1;
   }
 
     .stopwatch-wrapper {
