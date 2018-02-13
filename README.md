@@ -1,7 +1,11 @@
 ![VueJS Stopwatch](https://imgur.com/ukOeyg5.jpg)
 # vue-stopwatch
 
-> A Vue.js project
+> A Vue.js project used to learn vuejs and deploymenmt to heroku of a vuejs application.
+
+## Take It For a Test Run
+[View Live Demo](https://vue-stopwatch.herokuapp.com/)
+
 ## Build Setup
 
 ``` bash
@@ -18,4 +22,4 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For a detailed explanation on how the build system works, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
